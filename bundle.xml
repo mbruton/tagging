@@ -5,13 +5,20 @@
         <name>tagging</name>
         <version>1.0.0</version>
         <type>extension</type>
-        <namespace>/extensions/tagging</namespace>
+        <namespace>\adapt\tagging</namespace>
         <description>Provides a centralised tagging area.</description>
         <copyright>2015 Adapt Framework</copyright>
         <license>MIT</license>
         <website>http://www.adaptframework.com/documentation/extensions/tagging</website>
         <depends_on>
-            <bundle>user</bundle>
+            <bundle>
+                <name>user</name>
+                <version>1.0</version>
+            </bundle>
+            <bundle>
+                <name>adapt</name>
+                <version>1.0</version>
+            </bundle>
         </depends_on>
     </bundle>
 </adapt_framework>
